@@ -1,6 +1,6 @@
 import pandas as pd
 import en_core_web_sm
-from com_in_ineuron_ai_utils.utils import data_preprocessing_predict, preprocess_training_data
+from com_in_ai_utils.utils import data_preprocessing_predict, preprocess_training_data
 import pickle
 import numpy as np
 

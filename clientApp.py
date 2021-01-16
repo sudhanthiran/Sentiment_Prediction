@@ -5,9 +5,9 @@ import os
 from flask_cors import CORS,cross_origin
 import json
 
-from com_in_ineuron_ai_prediction.predictApp import PredictApi
-from com_in_ineuron_ai_training.trainApp import TrainApi
-from com_in_ineuron_ai_utils.utils import createDirectoryForUser, extractDataFromTrainingIntoDictionary, \
+from com_in_ai_prediction.predictApp import PredictApi
+from com_in_ai_training.trainApp import TrainApi
+from com_in_ai_utils.utils import createDirectoryForUser, extractDataFromTrainingIntoDictionary, \
     deleteExistingTrainingFolder
 
 os.putenv('LANG', 'en_US.UTF-8')

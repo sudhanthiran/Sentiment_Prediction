@@ -1,7 +1,7 @@
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn import naive_bayes
-from com_in_ineuron_ai_utils.utils import preprocess_training_data
+from com_in_ai_utils.utils import preprocess_training_data
 
 
 class TrainApi:
